@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN POKEMON</title>
+
+    <style>
+        html{
+            background-color: rgb(236, 198, 198);;
+        }
+        table{
+            border: 8px solid rgb(100, 0, 0);
+            background-color: rgb(117, 112, 194);
+            height: 13rem;
+            width: 30rem;
+        }
+        input[type="password"],input[type="text"]
+        {
+            width: 100%;
+            border: 2px solid #ccc;
+            padding: 5px 18px; 
+            box-sizing: border-box;
+        }
+      
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        label{
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            color: white;
+        }
+        input[type="submit"]
+        {
+            background-color: rgb(170, 69, 69);
+            color:white;
+            padding: 5px 6px;
+            margin: 8px 0px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <form method="post" action="login.php"></form>
+
+        <table>
+            <tr><td colspan="2" style="background-color: rgb(188, 140, 252); padding-bottom: 8px; padding-top: 5px;"><label>LOGIN</label></td></tr>
+            <tr><td align="center" rowspan="5"> <img src="../php/pikachu.png"/></td><td><label>USUARIO</label></td></tr>
+            <tr><td><input type="text" name="textusuario"/> </td></tr>
+            </td><td><label>CONTRASEÑA</label></td></tr>
+            <tr><td><input type="password" name="texpassword"></td></tr>
+             </td><td><label>CONFIRMAR CONTRASEÑA <input type="password" name="texpassword"> <input type="submit" value="CREAR USUARIO"></label></td></tr>
+        </table>
+
+    </center>
+</body>
+</html>

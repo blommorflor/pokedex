@@ -1,0 +1,15 @@
+html{
+    background-color: hsl(185, 75%, 39%);
+
+}
+
+.boton{
+
+    font-size: 50px;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+    align-items: baseline;
+    margin-left: 0.6rem;
+}
